@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: linear-gradient(to right top, #051937,   #004d7a, #008793, #00bf72, #a8eb12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+i{
+    color: #051960;
+}
+
+.drop-area{
+    text-align: center;
+    padding: 97px 62px;
+    border: 2px dashed #fff;
+}
+
+.drop-area .icon {
+    margin-bottom: 25px;
+}
+
+.drop-area h1{
+    margin-bottom: 25px;
+}
+
+
+.drop-area span {
+    display: block;
+    margin-bottom: 25px;
+
+}
+
+
+.drop-area button{
+    padding: 4px 26px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.drop-area button:hover{
+    background-color: #051960;
+    cursor: pointer;
+
+}
+
+.drop-area img{
+    width: 600px;
+    height: 400;
+    border-radius: 5px;
+}
